@@ -3,8 +3,8 @@ G = 2;
 
 $(document).ready(function() {
 	var step = 0;
-	var moon = new GameObject([300, 300], [0, 0], 10000, "/images/moon.png");
-	var spaceship = new GameObject([300, 150], [10, 0], 1, "/images/spaceship.png");
+	var moon = new GameObject([300, 300], [0, 0], 10000, "images/moon.png");
+	var spaceship = new GameObject([300, 150], [10, 0], 1, "images/spaceship.png");
 	var game_objects = [moon, spaceship];
 	setInterval(function() {
 		$("canvas#gamearea").clearCanvas();
